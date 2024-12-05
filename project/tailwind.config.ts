@@ -10,6 +10,10 @@ export default {
   theme: {
     extend: {
       colors: {
+        primary: {
+          DEFAULT: '#9117E1',
+          dark: '#7e0ecb',
+        },
         background: {
           light: "var(--background-light)", // Light mode background
           dark: "var(--background-dark)", // Dark mode background

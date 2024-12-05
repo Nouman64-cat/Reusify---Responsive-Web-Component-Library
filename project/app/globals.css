@@ -15,6 +15,11 @@
   
   /* Optional: Add smooth transition */
   body {
+    background-color: var(--background-light);
+    color: var(--foreground-light);
     transition: background-color 0.3s, color 0.3s;
   }
-  
+  .dark body {
+    background-color: var(--background-dark);
+    color: var(--foreground-dark);
+  }
